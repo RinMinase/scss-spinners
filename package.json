@@ -1,0 +1,19 @@
+{
+  "name": "scss-spinners",
+  "version": "0.1.0",
+  "description": "SCSS Spinners and Loaders based on webkul's csspin",
+  "main": "scss/spinners.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RinMinase/scss-spinners.git"
+  },
+  "keywords": [
+    "scss"
+  ],
+  "author": "Kristian Alunan (https://github.com/RinMinase)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RinMinase/scss-spinners/issues"
+  },
+  "homepage": "https://github.com/RinMinase"
+}
