@@ -16,6 +16,11 @@
     "url": "https://github.com/RinMinase/scss-spinners/issues"
   },
   "homepage": "https://github.com/RinMinase",
+  "scripts": {
+    "start": "rm -rf dist/ && node-sass spinners.scss --output dist",
+    "build": "rm -rf dist/ && node-sass spinners.scss --output-style compressed --output dist",
+    "watch": "rm -rf dist/ && node-sass --watch . --recursive --output dist"
+  },
   "dependencies": {
     "node-sass": "^4.12.0"
   }
