@@ -5,7 +5,7 @@
   "main": "scss/spinners.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RinMinase/scss-spinners.git"
+    "url": "https://github.com/RinMinase/scss-spinners.git"
   },
   "keywords": [
     "scss"
