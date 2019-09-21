@@ -25,8 +25,3 @@ $color-border: solid 6px #28A745;
 	@include display-box($outer-size);
 	position: relative;
 }
-
-@keyframes eclipse-animate{
-	0% { transform: rotate(0); }
-	100% { transform: rotate(360deg); }
-}
