@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RinMinase/scss-spinners/issues"
   },
-  "homepage": "https://github.com/RinMinase"
+  "homepage": "https://github.com/RinMinase",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
