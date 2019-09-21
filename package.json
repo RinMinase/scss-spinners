@@ -21,7 +21,7 @@
     "build": "rm -rf dist/ && node-sass spinners.scss --output-style compressed --output dist",
     "watch": "rm -rf dist/ && node-sass --watch . --recursive --output dist"
   },
-  "dependencies": {
+  "devDependencies": {
     "node-sass": "^4.12.0"
   }
 }
