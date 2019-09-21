@@ -3,7 +3,7 @@
 .spinner.eclipse {
 	@include display-box($inner-size);
 	border-radius: 50%;
-	background: #28A745;
+	background: $color;
 	margin: 12px;
 	animation: eclipse-animate 1s ease-out infinite;
 
