@@ -1,0 +1,21 @@
+@import "globals";
+
+.spinner.eclipse{
+	@include display-box($inner-size);
+	border-radius: 50%;
+	background: #28A745;
+	margin: 12px;
+	animation: eclipse-animate 1s ease-out infinite;
+
+	&::before{
+		@include draw-borders();
+		border-right: $color-border;
+		border-left: $clear-border;
+	}
+
+	&::after{
+		@include draw-borders();
+		border-right: $clear-border;
+		border-left: $color-border;
+	}
+}
