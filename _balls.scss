@@ -10,7 +10,7 @@
 
 		border-radius: 50%;
 		content: " ";
-		@include display-box($boxSize / 2, $boxSize / 2);
+		@include display-box($outer-size / 2);
 		background-color: $color;
 		position: absolute;
 		top: 0;
@@ -25,7 +25,7 @@
 
 		border-radius: 50%;
 		content: " ";
-		@include display-box($boxSize / 2, $boxSize / 2);
+		@include display-box($outer-size);
 		background-color: $color;
 		position: absolute;
 		bottom: 0;
