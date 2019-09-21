@@ -3,6 +3,12 @@ $outer-size: 60px;
 $clear-border: solid 6px transparent;
 $color-border: solid 6px #28A745;
 
+$color: #28A745;
+
+$speed2x: 2s;
+$speed3x: 1s;
+$speed4x: .5s;
+
 @mixin display-box($size) {
 	width: $size;
 	height: $size;
