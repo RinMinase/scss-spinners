@@ -22,7 +22,7 @@
 	}
 }
 
-@keyframes boxes-animate-before{
+@keyframes boxes-animate-before {
 	0% { transform: translateX(-($outer-size / 2)) rotate(45deg); }
 	50% { transform: translateX(-($outer-size / 6)) rotate(225deg); }
 	100% { transform: translateX(-($outer-size / 2)) rotate(45deg); }
