@@ -12,7 +12,7 @@
 		@include display-box($outer-size / 2);
 		background: $color;
 		position: absolute;
-		left: -($boxSize / 8 * 5);
+		left: -($outer-size / 8 * 5);
 		animation: bubble-animate-before $speed3x ease-in-out infinite;
 	}
 
@@ -22,7 +22,7 @@
 		@include display-box($outer-size / 2);
 		background: $color;
 		position: absolute;
-		right: -($boxSize / 8 * 5);
+		right: -($outer-size / 8 * 5);
 		animation: bubble-animate-after $speed3x ease-in-out infinite;
 	}
 }
