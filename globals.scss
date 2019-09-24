@@ -4,6 +4,7 @@ $clear-border: solid 6px transparent;
 $color-border: solid 6px #28A745;
 
 $color: #28A745;
+$secondColor: #28A745;
 
 $speed2x: 2s;
 $speed3x: 1s;
@@ -25,6 +26,13 @@ $speed4x: .5s;
 	position: absolute;
 	top: -18px;
 	left: -18px;
+}
+
+@mixin border($width, $colorTop, $colorRight, $colorBottom, $colorLeft) {
+	border-top: solid $width $colorTop;
+	border-right: solid $width $colorRight;
+	border-bottom: solid $width $colorBottom;
+	border-left: solid $width $colorLeft;
 }
 
 .spinner{
