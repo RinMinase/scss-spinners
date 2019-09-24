@@ -1,0 +1,44 @@
+@import "globals";
+
+.spinner.pinwheel {
+	border-radius: 50%;
+	@include display-box($outer-size);
+	@include border($outer-size / 2, $color, $secondColor, $color, $secondColor);
+	animation: pinwheel-animate $speed3x linear infinite;
+}
+
+@keyframes pinwheel-animate {
+	0%{
+		border-top-color: $color;
+		border-right-color: $secondColor;
+		border-bottom-color: $color;
+		border-left-color: $secondColor;
+		transform: rotate(0deg);
+	}
+	25% {
+		border-top-color: $color;
+		border-right-color: $secondColor;
+		border-bottom-color: $color;
+		border-left-color: $secondColor;
+	}
+	50% {
+		border-top-color: $color;
+		border-right-color: $secondColor;
+		border-bottom-color: $color;
+		border-left-color: $secondColor;
+	}
+	75% {
+		border-top-color: $color;
+		border-right-color: $secondColor;
+		border-bottom-color: $color;
+		border-left-color: $secondColor;
+	}
+	
+	100% {
+		border-top-color: $color;
+		border-right-color: $secondColor;
+		border-bottom-color: $color;
+		border-left-color: $secondColor;
+		transform: rotate(360deg);
+	}
+}
