@@ -1,0 +1,45 @@
+@import "globals";
+
+.spinner.skeleton {
+	border-radius: 50%;
+	@include border($outer-size / 8, $color, transparent, transparent, transparent);
+	animation: skeleton-animate $speed3x linear infinite;
+	
+	&::before{
+		border-radius: 50%;
+		content: " ";
+		@include display-box($outer-size);
+		@include border($outer-size / 8, transparent, transparent, transparent, $color);
+		position: absolute;
+		top: -($outer-size / 8);
+		left: -($outer-size / 8);
+		transform: rotateZ(-30deg);
+	}
+	
+	&::after {
+		border-radius: 50%;
+		content: " ";
+		@include display-box($outer-size);
+		@include border($outer-size / 8, transparent, $color, transparent, transparent);
+		position: absolute;
+		top: -($outer-size / 8);
+		right: -($outer-size / 8);
+		transform: rotateZ(30deg);
+	}
+}
+
+@keyframes skeleton-animate {
+	0% {
+		transform: rotate(0deg);
+		opacity: 1;
+	}
+
+	50% {
+		opacity: .7;
+	}
+	
+	100% {
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+}
