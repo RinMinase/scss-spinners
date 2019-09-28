@@ -1,0 +1,29 @@
+@import "globals";
+
+.spinner.round {
+	&::before{
+		border-radius: 50%;
+		content: " ";
+		@include display-box($outer-size);
+		@include border($outer-size / 8, $color, $color, $color, $color);
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	&::after{
+		border-radius: 50%;
+		content: " ";
+		@include display-box($outer-size);
+		@include border($outer-size / 8, $color, transparent, transparent, transparent);
+		position: absolute;
+		top: 0;
+		left: 0;
+		animation: round-animate $speed3x ease-in-out infinite;
+	}
+}
+
+@keyframes round-animate{
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
