@@ -1,0 +1,54 @@
+@import "globals";
+
+.spinner.heart {
+	animation: heart-animate $speed2x ease-in-out infinite;
+
+	&::before {
+		border-radius: $outer-size/4 $outer-size/4 0 0;
+		content: " ";
+		@include display-box-wh($outer-size / 2, $outer-size / 4 * 3 - 1);
+		background-color: $color;
+		transform: rotate(-45deg);
+		position: absolute;
+		top: 0;
+		left: $outer-size / 6;
+	}
+
+	&::after {
+		border-radius: $outer-size / 4 $outer-size / 4 0 0;
+		content: " ";
+		@include display-box-wh($outer-size / 2, $outer-size / 4 * 3 - 1);
+		background-color: $color;
+		transform: rotate(45deg);
+		position: absolute;
+		top: 0;
+		right: $outer-size / 6;
+	}
+}
+
+@keyframes heart-animate {
+	0% {
+		transform: scale(.9);
+		transform-origin: center;
+	}
+	
+	15% {
+		transform: scale(1.4);
+		transform-origin: center;
+	}
+
+	30% {
+		transform: scale(.9);
+		transform-origin: center;
+	}
+
+	45% {
+		transform: scale(1.4);
+		transform-origin: center;
+	}
+
+	60%, 100% {
+		transform: scale(.9);
+		transform-origin: center;
+	}
+}
