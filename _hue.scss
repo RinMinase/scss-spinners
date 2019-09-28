@@ -1,7 +1,7 @@
 @import "globals";
 
 .spinner.hue{
-	@include display-box($outer-size / 2, $outer-size / 2);
+	@include display-box($outer-size / 2);
 	background: $color;
 	border-radius: 50%;
 	animation: hue-animate $speed3x ease-in-out infinite;
