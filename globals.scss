@@ -17,6 +17,13 @@ $speed4x: .5s;
 	box-sizing: border-box;
 }
 
+@mixin display-box-wh($width, $height) {
+	width: $width;
+	height: $height;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
 @mixin draw-borders() {
 	border-radius: 50%;
 	content: " ";
