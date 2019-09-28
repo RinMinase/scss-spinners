@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/RinMinase",
   "scripts": {
-    "start": "rm -rf dist/ && node-sass spinners.scss --output dist",
-    "build": "rm -rf dist/ && node-sass spinners.scss --output-style compressed --output dist",
+    "clear": "rm -rf dist/ && mkdir dist",
+    "create-css": "node-sass spinners.scss > dist/spinners.css",
+    "create-min-css": "node-sass --output-style compressed spinners.scss > dist/spinners.min.css",
+    "start": "npm run clear && npm run create-css",
+    "build": "npm run clear && npm run create-css && npm run create-min-css",
     "watch": "rm -rf dist/ && node-sass --watch . --recursive --output dist"
   },
   "devDependencies": {
