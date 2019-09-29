@@ -22,8 +22,8 @@
   .spinner.balls::after {
     border-radius: 50%;
     content: " ";
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
     box-sizing: border-box;
     background-color: #71C585;
