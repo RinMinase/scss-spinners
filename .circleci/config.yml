@@ -32,11 +32,11 @@ workflows:
   version: 2
   build:
     jobs:
-      # - npm
-      #     filters:
-      #       branches:
-      #         only: master
-      - github:
+      - npm
           filters:
             branches:
               only: master
+      # - github:
+      #     filters:
+      #       branches:
+      #         only: master
