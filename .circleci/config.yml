@@ -11,6 +11,13 @@ jobs:
       - checkout
 
       - run:
+          name: Adding Github Release
+          command: |
+            go get github.com/tcnksm/ghr
+            VERSION=$(npm view scss-spinners version)
+            ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} ./dist/
+
+      - run:
           name: Authenticate with registry
           command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/spinners/.npmrc
 
