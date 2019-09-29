@@ -17,7 +17,7 @@
 	&::after {
 		border-radius: 50%;
 		content: " ";
-		@include display-box($outer-size);
+		@include display-box($outer-size / 2);
 		background-color: $secondColor;
 		position: absolute;
 		bottom: 0;
