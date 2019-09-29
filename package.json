@@ -8,7 +8,9 @@
     "url": "https://github.com/RinMinase/scss-spinners.git"
   },
   "keywords": [
-    "scss"
+    "scss",
+    "sass",
+    "node-sass"
   ],
   "author": "Kristian Alunan (https://github.com/RinMinase)",
   "license": "ISC",
