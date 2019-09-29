@@ -71,5 +71,10 @@ Task automation is based on [Yarn scripts](https://yarnpkg.com/lang/en/docs/cli/
 | `npm build` or `yarn build`      | Builds the scss files to `dist/` to a minified css file         |
 | `npm run watch` or `yarn watch`  | Builds the scss files to `dist/` with file watching on changes  |
 
+## Built with
+* <img width=20 height=20 src="https://sass-lang.com/favicon.ico"> [Sassy CSS (SCSS)](https://sass-lang.com/) - CSS pre-processor
+* <img width=20 height=20 src="https://nodejs.org/static/images/favicons/favicon-32x32.png"> [NodeJS](https://nodejs.org/) - Environment
+* <img width=20 height=20 src="https://dmmj3mmt94rvw.cloudfront.net/favicon-undefined.ico"> [Circle CI](https://circleci.com/) - Continuous Integration (CI) service
+
 ## Credits
 This is based from [Webkul's CSSPIN](https://github.com/webkul/csspin) made in SCSS for projects looking for SCSS spinners or loaders.
