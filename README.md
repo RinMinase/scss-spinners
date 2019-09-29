@@ -53,7 +53,9 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
     ├── spinners.scss         # Main stylesheet
     ├── globals.scss          # Globals stylesheet
     ├── index.html            # Demo page
-    └── components/           # Specific spinner stylesheets
+    ├── .circleci/            # CircleCI deployment
+    ├── components/           # Specific spinner stylesheets
+    └── dist/                 # Stylesheets built to CSS
 
 #### How the structure works?
 - `spinner.scss` imports `globals.scss` and all specific spinner stylesheets
