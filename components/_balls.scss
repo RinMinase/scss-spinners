@@ -4,10 +4,6 @@
 	animation: balls-animate $speed3x linear infinite;
 
 	&::before {
-		@include draw-borders();
-		border-right: $color-border;
-		border-left: $clear-border;
-
 		border-radius: 50%;
 		content: " ";
 		@include display-box($outer-size / 2);
@@ -19,14 +15,10 @@
 	}
 
 	&::after {
-		@include draw-borders();
-		border-right: $clear-border;
-		border-left: $color-border;
-
 		border-radius: 50%;
 		content: " ";
 		@include display-box($outer-size);
-		background-color: $color;
+		background-color: $secondColor;
 		position: absolute;
 		bottom: 0;
 		right: 0;
