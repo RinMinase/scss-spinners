@@ -1,4 +1,4 @@
-@import "globals";
+@import "../globals";
 
 .spinner.eclipse {
 	@include display-box($inner-size);

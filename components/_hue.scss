@@ -1,4 +1,4 @@
-@import "globals";
+@import "../globals";
 
 .spinner.hue{
 	@include display-box($outer-size / 2);
