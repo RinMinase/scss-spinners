@@ -20,6 +20,12 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
     @import "~scss-spinners/spinners";
     ```
 
+3. Usage is as simple as
+
+    ```html
+    <div class="spinner round"></div>
+    ```
+
 ### Building the project as CSS
 1. [Download](https://nodejs.org/en/) the latest Node version. This is marked as `<version number> Current`. Install it on your machine.
 
