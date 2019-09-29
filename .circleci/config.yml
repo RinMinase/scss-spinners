@@ -1,12 +1,9 @@
 version: 2
 jobs:
-  build:
+  npm:
     working_directory: ~/spinners
     docker:
-      - image: circleci/golang:1.13.1-node
-    branches:
-      only:
-        - master
+      - image: circleci/node:12.10.0
     steps:
       - checkout
 
@@ -18,9 +15,24 @@ jobs:
           name: Publishing NPM Package
           command: npm publish
 
+  github:
+    docker:
+      - image: cibuilds/github:0.10
+    steps:
+      - checkout
+
       - run:
-          name: Adding Github Release
+          name: "Publish Release on GitHub"
           command: |
-            go get github.com/tcnksm/ghr
             VERSION=$(npm view scss-spinners version)
-            ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} ${VERSION} ./dist/
+            ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} ./dist/
+
+workflows:
+  version: 2
+  build:
+    branches:
+      only:
+        - master
+    jobs:
+      # - npm
+      - github
