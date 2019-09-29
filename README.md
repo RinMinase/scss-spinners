@@ -3,6 +3,7 @@
 ## Introduction
 
 ## Demo
+You can view the spinners right now at [https://rinminase.github.io/scss-spinners/](https://rinminase.github.io/scss-spinners)
 
 ## Getting Started
 
