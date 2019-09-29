@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.13.1-node
+    branches:
+      only:
+        - master
+    steps:
+      - checkout
+
+      - run:
+          name: Authenticate with registry
+          command: echo "//registry.npmjs.org/:_authToken=$npm_TOKEN" > ~/repo/.npmrc
+
+      - run:
+          name: Publishing NPM Package
+          command: npm publish
