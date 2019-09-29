@@ -17,13 +17,14 @@ jobs:
 
   github:
     docker:
-      - image: cibuilds/github:0.10
+      - image: circleci/golang:1.13.1-node
     steps:
       - checkout
 
       - run:
           name: "Publish Release on GitHub"
           command: |
+            go get github.com/tcnksm/ghr
             VERSION=$(npm view scss-spinners version)
             ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} ./dist/
 
