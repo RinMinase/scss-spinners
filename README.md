@@ -64,7 +64,7 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
     └── dist/                 # Stylesheets built to CSS
 
 #### How the structure works?
-- `spinner.scss` imports `globals.scss` and all specific spinner stylesheets
+- `spinner.scss` imports all specific spinner stylesheets
 - `_{spinner}.scss` imports `globals.scss` and contains styles for the specific spinner
 
 ### Project tasks
