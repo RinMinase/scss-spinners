@@ -8,7 +8,7 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
 ## Getting Started
 
 ### Using this project as SCSS
-1. Install the package from `npm`
+1. Install the package from [npm](https://www.npmjs.com/package/scss-spinners)
 
     ```
     npm install scss-spinners
