@@ -2,17 +2,17 @@
 
 .spinner.meter{
 	border-radius: 50%;
-	@include border($outer-size / 8, $color, $color, $color, $color);
-	@include display-box($outer-size);
+	@include border($spinner-size / 8, $color, $color, $color, $color);
+	@include display-box($spinner-size);
 
 	&::before{
-		border-radius: $outer-size / 16;
+		border-radius: $spinner-size / 16;
 		content: " ";
-		@include display-box-wh($outer-size / 8, $outer-size / 4);
+		@include display-box-wh($spinner-size / 8, $spinner-size / 4);
 		background-color: $color;
 		position: absolute;
-		top: ceil($outer-size / 10);
-		left: $outer-size / 3;
+		top: ceil($spinner-size / 10);
+		left: $spinner-size / 3;
 		transform-origin: center bottom;
 		animation: meter-animate-before $speed3x linear infinite;
 	}

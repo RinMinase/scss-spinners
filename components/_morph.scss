@@ -1,7 +1,7 @@
 @import "../globals";
 
 .spinner.morph {
-	@include display-box($outer-size);
+	@include display-box($spinner-size);
 	background: $color;
 	animation: morph-animate $speed3x linear infinite;
 }

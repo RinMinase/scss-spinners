@@ -5,7 +5,7 @@
 	perspective: 10em;
 	
 	&::before{
-		@include display-box($outer-size);
+		@include display-box($spinner-size);
 		background: $color;
 		content: " ";
 		position: absolute;

@@ -2,27 +2,27 @@
 
 .spinner.bubble {
 	border-radius: 50%;
-	@include display-box($outer-size / 2);
+	@include display-box($spinner-size / 2);
 	background: $color;
 	animation: bubble-animate $speed3x linear infinite;
 
 	&::before {
 		border-radius: 50%;
 		content: " ";
-		@include display-box($outer-size / 2);
+		@include display-box($spinner-size / 2);
 		background: $color;
 		position: absolute;
-		left: -($outer-size / 8 * 5);
+		left: -($spinner-size / 8 * 5);
 		animation: bubble-animate-before $speed3x ease-in-out infinite;
 	}
 
 	&::after {
 		border-radius: 50%;
 		content: " ";
-		@include display-box($outer-size / 2);
+		@include display-box($spinner-size / 2);
 		background: $color;
 		position: absolute;
-		right: -($outer-size / 8 * 5);
+		right: -($spinner-size / 8 * 5);
 		animation: bubble-animate-after $speed3x ease-in-out infinite;
 	}
 }

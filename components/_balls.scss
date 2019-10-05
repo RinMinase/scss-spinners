@@ -6,7 +6,7 @@
 	&::before {
 		border-radius: 50%;
 		content: " ";
-		@include display-box($outer-size / 2);
+		@include display-box($spinner-size / 2);
 		background-color: $color;
 		position: absolute;
 		top: 0;
@@ -17,7 +17,7 @@
 	&::after {
 		border-radius: 50%;
 		content: " ";
-		@include display-box($outer-size / 2);
+		@include display-box($spinner-size / 2);
 		background-color: $secondColor;
 		position: absolute;
 		bottom: 0;

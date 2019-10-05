@@ -2,8 +2,8 @@
 
 .spinner.pinwheel {
 	border-radius: 50%;
-	@include display-box($outer-size);
-	@include border($outer-size / 2, $color, $secondColor, $color, $secondColor);
+	@include display-box($spinner-size);
+	@include border($spinner-size / 2, $color, $secondColor, $color, $secondColor);
 	animation: pinwheel-animate $speed3x linear infinite;
 }
 

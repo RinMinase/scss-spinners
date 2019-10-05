@@ -4,8 +4,8 @@
 	&::before{
 		border-radius: 50%;
 		content: " ";
-		@include display-box($outer-size);
-		@include border($outer-size / 8, $secondColor, $secondColor, $secondColor, $secondColor);
+		@include display-box($spinner-size);
+		@include border($spinner-size / 8, $secondColor, $secondColor, $secondColor, $secondColor);
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -14,8 +14,8 @@
 	&::after{
 		border-radius: 50%;
 		content: " ";
-		@include display-box($outer-size);
-		@include border($outer-size / 8, $color, transparent, transparent, transparent);
+		@include display-box($spinner-size);
+		@include border($spinner-size / 8, $color, transparent, transparent, transparent);
 		position: absolute;
 		top: 0;
 		left: 0;

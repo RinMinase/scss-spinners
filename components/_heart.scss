@@ -4,25 +4,25 @@
 	animation: heart-animate $speed2x ease-in-out infinite;
 
 	&::before {
-		border-radius: $outer-size/4 $outer-size/4 0 0;
+		border-radius: $spinner-size/4 $spinner-size/4 0 0;
 		content: " ";
-		@include display-box-wh($outer-size / 2, $outer-size / 4 * 3 - 1);
+		@include display-box-wh($spinner-size / 2, $spinner-size / 4 * 3 - 1);
 		background-color: $color;
 		transform: rotate(-45deg);
 		position: absolute;
 		top: 0;
-		left: $outer-size / 6;
+		left: $spinner-size / 6;
 	}
 
 	&::after {
-		border-radius: $outer-size / 4 $outer-size / 4 0 0;
+		border-radius: $spinner-size / 4 $spinner-size / 4 0 0;
 		content: " ";
-		@include display-box-wh($outer-size / 2, $outer-size / 4 * 3 - 1);
+		@include display-box-wh($spinner-size / 2, $spinner-size / 4 * 3 - 1);
 		background-color: $color;
 		transform: rotate(45deg);
 		position: absolute;
 		top: 0;
-		right: $outer-size / 6;
+		right: $spinner-size / 6;
 	}
 }
 

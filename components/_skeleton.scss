@@ -2,28 +2,28 @@
 
 .spinner.skeleton {
 	border-radius: 50%;
-	@include border($outer-size / 8, $color, transparent, transparent, transparent);
+	@include border($spinner-size / 8, $color, transparent, transparent, transparent);
 	animation: skeleton-animate $speed3x linear infinite;
 	
 	&::before{
 		border-radius: 50%;
 		content: " ";
-		@include display-box($outer-size);
-		@include border($outer-size / 8, transparent, transparent, transparent, $color);
+		@include display-box($spinner-size);
+		@include border($spinner-size / 8, transparent, transparent, transparent, $color);
 		position: absolute;
-		top: -($outer-size / 8);
-		left: -($outer-size / 8);
+		top: -($spinner-size / 8);
+		left: -($spinner-size / 8);
 		transform: rotateZ(-30deg);
 	}
 	
 	&::after {
 		border-radius: 50%;
 		content: " ";
-		@include display-box($outer-size);
-		@include border($outer-size / 8, transparent, $color, transparent, transparent);
+		@include display-box($spinner-size);
+		@include border($spinner-size / 8, transparent, $color, transparent, transparent);
 		position: absolute;
-		top: -($outer-size / 8);
-		right: -($outer-size / 8);
+		top: -($spinner-size / 8);
+		right: -($spinner-size / 8);
 		transform: rotateZ(30deg);
 	}
 }
