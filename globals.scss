@@ -1,6 +1,4 @@
 $spinner-size: 60px !default;
-$clear-border: solid 6px transparent;
-$color-border: solid 6px #28A745;
 
 $color: #28A745;
 $secondColor: #71C585;
@@ -26,9 +24,9 @@ $speed4x: .5s;
 @mixin draw-borders() {
 	border-radius: 50%;
 	content: " ";
-	@include display-box($outer-size);
-	border-top: $clear-border;
-	border-bottom: $clear-border;
+	@include display-box($spinner-size);
+	border-top: solid 6px transparent;
+	border-bottom: solid 6px transparent;
 	position: absolute;
 	top: -18px;
 	left: -18px;
@@ -42,6 +40,6 @@ $speed4x: .5s;
 }
 
 .spinner{
-	@include display-box($outer-size);
+	@include display-box($spinner-size);
 	position: relative;
 }

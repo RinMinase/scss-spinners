@@ -9,14 +9,14 @@
 
 	&::before {
 		@include draw-borders();
-		border-right: $color-border;
-		border-left: $clear-border;
+		border-right: solid 6px $color;
+		border-left: solid 6px transparent;
 	}
 
 	&::after {
 		@include draw-borders();
-		border-right: $clear-border;
-		border-left: $color-border;
+		border-right: solid 6px transparent;
+		border-left: solid 6px $color;
 	}
 }
 
