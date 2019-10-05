@@ -1,7 +1,7 @@
 @import "../globals";
 
 .spinner.eclipse {
-	@include display-box($inner-size);
+	@include display-box(24px);
 	border-radius: 50%;
 	background: $color;
 	margin: 12px;
