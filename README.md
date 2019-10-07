@@ -26,6 +26,19 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
     <div class="spinner round"></div>
     ```
 
+### Overriding variables
+
+Variables is located at `/node_modules/scss-spinners/variables.scss`.
+
+The table below lists the possible variables which can be overriden.
+
+| Task               | Description                                         |
+| ------------------ | --------------------------------------------------- |
+| `$spinner-color`   | Sets the primary color of the spinner               |
+| `$spinner-accent`  | Sets the secondary or accent color of the spinner   |
+| `$spinner-size`    | Sets the size of the spinner                        |
+| `$spinner-speed`   | Sets the speed multiplier of the spinner animation  |
+
 ### Building the project as CSS
 1. [Download](https://nodejs.org/en/) the latest Node version. This is marked as `<version number> Current`. Install it on your machine.
 
