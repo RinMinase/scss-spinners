@@ -5,7 +5,7 @@
 	&::before {
 		@include display-box($spinner-size / 2);
 		content: " ";
-		background: $color;
+		background: $spinner-color;
 		position: absolute;
 		top: ($spinner-size / 8 * 2);
 		left: 0;
@@ -15,7 +15,7 @@
 	&::after {
 		@include display-box($spinner-size / 2);
 		content: " ";
-		background: $color;
+		background: $spinner-color;
 		position: absolute;
 		top: ($spinner-size / 8 * 2);
 		right: 0;

@@ -3,7 +3,7 @@
 
 .spinner.hue{
 	@include display-box($spinner-size / 2);
-	background: $color;
+	background: $spinner-color;
 	border-radius: 50%;
 	animation: hue-animate $speed3x ease-in-out infinite;
 
@@ -20,11 +20,11 @@
 }
 
 @keyframes hue-animate{
-	0% { background: $color; }
+	0% { background: $spinner-color; }
 	25% { background: $secondColor; }
-	50% { background: $color; }
+	50% { background: $spinner-color; }
 	75% { background: $secondColor; }
-	100% { background: $color; }
+	100% { background: $spinner-color; }
 }
 
 @keyframes hue-animate-before{

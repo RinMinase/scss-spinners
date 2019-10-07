@@ -16,7 +16,7 @@
 		border-radius: 50%;
 		content: " ";
 		@include display-box($spinner-size);
-		@include border($spinner-size / 8, $color, transparent, transparent, transparent);
+		@include border($spinner-size / 8, $spinner-color, transparent, transparent, transparent);
 		position: absolute;
 		top: 0;
 		left: 0;

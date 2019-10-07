@@ -3,14 +3,14 @@
 
 .spinner.meter{
 	border-radius: 50%;
-	@include border($spinner-size / 8, $color, $color, $color, $color);
+	@include border($spinner-size / 8, $spinner-color, $spinner-color, $spinner-color, $spinner-color);
 	@include display-box($spinner-size);
 
 	&::before{
 		border-radius: $spinner-size / 16;
 		content: " ";
 		@include display-box-wh($spinner-size / 8, $spinner-size / 4);
-		background-color: $color;
+		background-color: $spinner-color;
 		position: absolute;
 		top: ceil($spinner-size / 10);
 		left: $spinner-size / 3;
