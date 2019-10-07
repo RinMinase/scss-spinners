@@ -1,0 +1,12 @@
+/**
+ * These are the list of variables which can be overriden
+ *   e.g.
+ *     $spinnner-color: #fff;
+ *     @import <spinner>
+ */
+
+$spinner-color: #28A745 !default;
+$spinner-accent: #71C585 !default;
+
+$spinner-size: 60px !default;
+$spinner-speed: 1 !default;
