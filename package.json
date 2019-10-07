@@ -24,7 +24,7 @@
   "homepage": "https://github.com/RinMinase",
   "scripts": {
     "clear": "rm -rf dist/ && mkdir dist",
-    "create-css": "node-sass spinners.scss > dist/spinners.css",
+    "create-css": "node-sass --output-style expanded spinners.scss > dist/spinners.css",
     "create-min-css": "node-sass --output-style compressed spinners.scss > dist/spinners.min.css",
     "start": "npm run clear && npm run create-css",
     "build": "npm run clear && npm run create-css && npm run create-min-css",
