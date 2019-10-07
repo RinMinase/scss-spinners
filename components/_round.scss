@@ -5,7 +5,7 @@
 		border-radius: 50%;
 		content: " ";
 		@include display-box($spinner-size);
-		@include border($spinner-size / 8, $secondColor, $secondColor, $secondColor, $secondColor);
+		@include border($spinner-size / 8, $spinner-accent, $spinner-accent, $spinner-accent, $spinner-accent);
 		position: absolute;
 		top: 0;
 		left: 0;

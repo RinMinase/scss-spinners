@@ -18,7 +18,7 @@
 		border-radius: 50%;
 		content: " ";
 		@include display-box($spinner-size / 2);
-		background-color: $secondColor;
+		background-color: $spinner-accent;
 		position: absolute;
 		bottom: 0;
 		right: 0;

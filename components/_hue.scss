@@ -20,9 +20,9 @@
 
 @keyframes hue-animate{
 	0% { background: $spinner-color; }
-	25% { background: $secondColor; }
+	25% { background: $spinner-accent; }
 	50% { background: $spinner-color; }
-	75% { background: $secondColor; }
+	75% { background: $spinner-accent; }
 	100% { background: $spinner-color; }
 }
 
