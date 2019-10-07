@@ -5,8 +5,21 @@
  *     @import <spinner>
  */
 
+/**
+ * Sets the color and the accent of the spinner
+ */
 $spinner-color: #28A745 !default;
 $spinner-accent: #71C585 !default;
 
+/**
+ * Sets the size of the spinner
+ */
 $spinner-size: 60px !default;
+
+/**
+ * Sets the speed multiplier of the spinner animation
+ *   Where:
+ *     2 = slower (2x slower)
+ *     0.5 = faster (2x faster)
+ */
 $spinner-speed: 1 !default;
