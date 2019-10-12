@@ -26,7 +26,7 @@
     "clear": "rm -rf dist/ && mkdir dist",
     "create-css": "node-sass --output-style expanded spinners.scss > dist/spinners.css",
     "create-min-css": "node-sass --output-style compressed spinners.scss > dist/spinners.min.css",
-    "github-release": "release-it --ci --no-increment",
+    "rel": "release-it --no-increment",
     "start": "npm run clear && npm run create-css",
     "build": "npm run clear && npm run create-css && npm run create-min-css",
     "watch": "rm -rf dist/ && node-sass --watch . --recursive --output dist"
@@ -37,6 +37,8 @@
   },
   "release-it": {
     "git": {
+      "addUntrackedFiles": false,
+      "commit": false,
       "requireCleanWorkingDir": false
     },
     "github": {
