@@ -1,6 +1,6 @@
-$speed2x: calc(2s * #{$spinner-speed});
-$speed3x: calc(1s * #{$spinner-speed});
-$speed4x: calc(.5s * #{$spinner-speed});
+$speed2x: 2s;
+$speed3x: 1s;
+$speed4x: .5s;
 
 @mixin display-box($size) {
 	width: $size;
