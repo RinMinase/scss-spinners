@@ -1,5 +1,14 @@
 <h1 align="center"> SCSS Spinners and Loaders </h1>
 
+<p align="center">
+    <a href="hthttps://forthebadge.com">
+        <img alt="Circle-CI" src="https://forthebadge.com/images/badges/uses-css.svg">
+    </a>&nbsp;&nbsp;&nbsp;
+    <a href="https://forthebadge.com">
+        <img alt="Codecov" src="https://forthebadge.com/images/badges/built-with-love.svg" />
+    </a>
+</p>
+
 ## Introduction
 
 ## Demo
