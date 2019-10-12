@@ -38,6 +38,15 @@ The table below lists the possible variables which can be overriden.
 | `$spinner-accent`  | Sets the secondary or accent color of the spinner   |
 | `$spinner-size`    | Sets the size of the spinner                        |
 
+To override, on the stylesheet before importing `spinners.scss`:
+
+```scss
+$spinner-color: blue;
+$spinner-size: 10px;
+
+@import "~scss-spinners/spinners";
+```
+
 ### Building the project as CSS
 1. [Download](https://nodejs.org/en/) the latest Node version. This is marked as `<version number> Current`. Install it on your machine.
 
