@@ -1,9 +1,10 @@
+@import "../variables";
 @import "../globals";
 
 .spinner.flip {
 	transform-style: preserve-3d;
 	perspective: 10em;
-	
+
 	&::before{
 		@include display-box($spinner-size);
 		background: $spinner-color;

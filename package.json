@@ -1,6 +1,6 @@
 {
   "name": "scss-spinners",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "SCSS Spinners and Loaders based on webkul's csspin",
   "main": "scss/spinners.scss",
   "repository": {
@@ -26,11 +26,29 @@
     "clear": "rm -rf dist/ && mkdir dist",
     "create-css": "node-sass --output-style expanded spinners.scss > dist/spinners.css",
     "create-min-css": "node-sass --output-style compressed spinners.scss > dist/spinners.min.css",
+    "github-release": "release-it --ci --no-increment",
     "start": "npm run clear && npm run create-css",
     "build": "npm run clear && npm run create-css && npm run create-min-css",
     "watch": "rm -rf dist/ && node-sass --watch . --recursive --output dist"
   },
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "release-it": "^12.4.3"
+  },
+  "release-it": {
+    "git": {
+      "addUntrackedFiles": false,
+      "commit": false,
+      "requireCleanWorkingDir": false
+    },
+    "github": {
+      "release": true,
+      "releaseName": "${version}",
+      "draft": true,
+      "assets": "dist/*.css"
+    },
+    "npm": {
+      "publish": false
+    }
   }
 }

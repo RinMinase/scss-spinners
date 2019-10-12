@@ -26,6 +26,17 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
     <div class="spinner round"></div>
     ```
 
+### Specific imports (Tree-shaking)
+
+To import only a specific spinner:
+
+```scss
+@import "~scss-spinners/variables";
+@import "~scss-spinners/components/balls";
+```
+
+The example above would only import `balls` spinner.
+
 ### Overriding variables
 
 Variables is located at `/node_modules/scss-spinners/variables.scss`.
@@ -37,7 +48,15 @@ The table below lists the possible variables which can be overriden.
 | `$spinner-color`   | Sets the primary color of the spinner               |
 | `$spinner-accent`  | Sets the secondary or accent color of the spinner   |
 | `$spinner-size`    | Sets the size of the spinner                        |
-| `$spinner-speed`   | Sets the speed multiplier of the spinner animation  |
+
+To override, on the stylesheet before importing `spinners.scss`:
+
+```scss
+$spinner-color: blue;
+$spinner-size: 10px;
+
+@import "~scss-spinners/spinners";
+```
 
 ### Building the project as CSS
 1. [Download](https://nodejs.org/en/) the latest Node version. This is marked as `<version number> Current`. Install it on your machine.
