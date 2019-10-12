@@ -2,10 +2,10 @@
 
 <p align="center">
     <a href="hthttps://forthebadge.com">
-        <img alt="Circle-CI" src="https://forthebadge.com/images/badges/uses-css.svg">
+        <img alt="Uses-CSS" src="https://forthebadge.com/images/badges/uses-css.svg">
     </a>&nbsp;&nbsp;&nbsp;
     <a href="https://forthebadge.com">
-        <img alt="Codecov" src="https://forthebadge.com/images/badges/built-with-love.svg" />
+        <img alt="Built-With-Love" src="https://forthebadge.com/images/badges/built-with-love.svg" />
     </a>
 </p>
 
