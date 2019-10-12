@@ -96,7 +96,7 @@ $spinner-size: 10px;
 
 #### How the structure works?
 - `spinner.scss` imports all specific spinner stylesheets
-- `_{spinner}.scss` imports `globals.scss` and contains styles for the specific spinner
+- `_{spinner}.scss` imports `variables.scss`, `globals.scss` and contains styles for the specific spinner
 
 ### Project tasks
 
