@@ -43,6 +43,7 @@
     },
     "github": {
       "release": true,
+      "releaseName": "${version}",
       "draft": true,
       "assets": "dist/*.css"
     },
