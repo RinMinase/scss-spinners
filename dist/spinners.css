@@ -10,12 +10,6 @@
 /**
  * Sets the size of the spinner
  */
-/**
- * Sets the speed multiplier of the spinner animation
- *   Where:
- *     2 = slower (2x slower)
- *     0.5 = faster (2x faster)
- */
 .spinner {
   width: 60px;
   height: 60px;
@@ -25,7 +19,7 @@
 }
 
 .spinner.balls {
-  animation: balls-animate calc(1s * 1) linear infinite;
+  animation: balls-animate 1s linear infinite;
 }
 
 .spinner.balls::before {
@@ -39,7 +33,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  animation: balls-animate-before calc(1s * 1) ease-in-out infinite;
+  animation: balls-animate-before 1s ease-in-out infinite;
 }
 
 .spinner.balls::after {
@@ -53,7 +47,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  animation: balls-animate-after calc(1s * 1) ease-in-out infinite;
+  animation: balls-animate-after 1s ease-in-out infinite;
 }
 
 @keyframes balls-animate {
@@ -107,7 +101,7 @@
   position: absolute;
   top: 15px;
   left: 0;
-  animation: boxes-animate-before calc(1s * 1) ease-in-out infinite;
+  animation: boxes-animate-before 1s ease-in-out infinite;
 }
 
 .spinner.boxes::after {
@@ -120,7 +114,7 @@
   position: absolute;
   top: 15px;
   right: 0;
-  animation: boxes-animate-after calc(1s * 1) ease-in-out infinite;
+  animation: boxes-animate-after 1s ease-in-out infinite;
 }
 
 @keyframes boxes-animate-before {
@@ -162,7 +156,7 @@
   display: inline-block;
   box-sizing: border-box;
   background: #28A745;
-  animation: bubble-animate calc(1s * 1) linear infinite;
+  animation: bubble-animate 1s linear infinite;
 }
 
 .spinner.bubble::before {
@@ -175,7 +169,7 @@
   background: #28A745;
   position: absolute;
   left: -37.5px;
-  animation: bubble-animate-before calc(1s * 1) ease-in-out infinite;
+  animation: bubble-animate-before 1s ease-in-out infinite;
 }
 
 .spinner.bubble::after {
@@ -188,7 +182,7 @@
   background: #28A745;
   position: absolute;
   right: -37.5px;
-  animation: bubble-animate-after calc(1s * 1) ease-in-out infinite;
+  animation: bubble-animate-after 1s ease-in-out infinite;
 }
 
 @keyframes bubble-animate {
@@ -321,7 +315,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  animation: flip-animate-before calc(2s * 1) linear infinite;
+  animation: flip-animate-before 2s linear infinite;
 }
 
 @keyframes flip-animate-before {
@@ -351,7 +345,7 @@
 }
 
 .spinner.heart {
-  animation: heart-animate calc(2s * 1) ease-in-out infinite;
+  animation: heart-animate 2s ease-in-out infinite;
 }
 
 .spinner.heart::before {
@@ -420,7 +414,7 @@
   box-sizing: border-box;
   background: #28A745;
   border-radius: 50%;
-  animation: hue-animate calc(1s * 1) ease-in-out infinite;
+  animation: hue-animate 1s ease-in-out infinite;
 }
 
 .spinner.hue::before {
@@ -434,7 +428,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  animation: hue-animate-before calc(1s * 1) ease-in-out infinite;
+  animation: hue-animate-before 1s ease-in-out infinite;
 }
 
 @keyframes hue-animate {
@@ -504,7 +498,7 @@
   top: 6px;
   left: 20px;
   transform-origin: center bottom;
-  animation: meter-animate-before calc(1s * 1) linear infinite;
+  animation: meter-animate-before 1s linear infinite;
 }
 
 @keyframes meter-animate-before {
@@ -530,7 +524,7 @@
   display: inline-block;
   box-sizing: border-box;
   background: #28A745;
-  animation: morph-animate calc(1s * 1) linear infinite;
+  animation: morph-animate 1s linear infinite;
 }
 
 @keyframes morph-animate {
@@ -569,7 +563,7 @@
   border-right: solid 30px #71C585;
   border-bottom: solid 30px #28A745;
   border-left: solid 30px #71C585;
-  animation: pinwheel-animate calc(1s * 1) linear infinite;
+  animation: pinwheel-animate 1s linear infinite;
 }
 
 @keyframes pinwheel-animate {
@@ -645,7 +639,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  animation: round-animate calc(1s * 1) ease-in-out infinite;
+  animation: round-animate 1s ease-in-out infinite;
 }
 
 @keyframes round-animate {
@@ -671,7 +665,7 @@
   border-right: solid 7.5px transparent;
   border-bottom: solid 7.5px transparent;
   border-left: solid 7.5px transparent;
-  animation: skeleton-animate calc(1s * 1) linear infinite;
+  animation: skeleton-animate 1s linear infinite;
 }
 
 .spinner.skeleton::before {
