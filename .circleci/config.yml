@@ -15,6 +15,10 @@ jobs:
           name: Publishing NPM Package
           command: npm publish
 
+      - run:
+          name: Publishing Github Release
+          command: npm run github-release
+
   github:
     docker:
       - image: circleci/golang:1.13.1-node
