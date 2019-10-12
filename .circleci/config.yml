@@ -23,9 +23,9 @@ jobs:
           command: yarn install --frozen-lockfile
 
       - run:
+          name: Setup GitHub for Release
+          command: git config --global -l && git config --global user.email $GIT_EMAIL && git config --global user.name $GIT_NAME
+
+      - run:
           name: Publishing GitHub Release
-          commands:
-            - git config --global -l
-            - git config --global user.email $GIT_EMAIL
-            - git config --global user.name $GIT_NAME
-            - npm run github-release
+          command: npm run github-release
