@@ -26,6 +26,17 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
     <div class="spinner round"></div>
     ```
 
+### Specific imports (Tree-shaking)
+
+To import only a specific spinner:
+
+```scss
+@import "~scss-spinners/variables";
+@import "~scss-spinners/components/balls";
+```
+
+The example above would only import `balls` spinner.
+
 ### Overriding variables
 
 Variables is located at `/node_modules/scss-spinners/variables.scss`.
