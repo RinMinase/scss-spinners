@@ -9,6 +9,12 @@
     </a>
 </p>
 
+<p align="center">
+    <a href="https://www.npmjs.com/package/scss-spinners">
+        <img alt="NPM" src="https://nodei.co/npm/scss-spinners.png?compact=true">
+    </a>
+</p>
+
 ## Introduction
 
 ## Demo
