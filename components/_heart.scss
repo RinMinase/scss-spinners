@@ -1,3 +1,4 @@
+@import "../variables";
 @import "../globals";
 
 .spinner.heart {
@@ -31,7 +32,7 @@
 		transform: scale(.9);
 		transform-origin: center;
 	}
-	
+
 	15% {
 		transform: scale(1.4);
 		transform-origin: center;

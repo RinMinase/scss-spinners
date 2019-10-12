@@ -1,3 +1,4 @@
+@import "../variables";
 @import "../globals";
 
 .spinner.morph {
@@ -13,13 +14,13 @@
 		background: $spinner-accent;
 
 	}
-	
+
 	25%, 75% {
 		transform: rotate(180deg) scale(.4);
 		border-radius: 50%;
 		background: $spinner-color;
 	}
-	
+
 	100%{
 		transform: rotate(360deg) scale(1);
 		border-radius: 0%;

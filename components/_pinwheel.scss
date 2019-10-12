@@ -1,3 +1,4 @@
+@import "../variables";
 @import "../globals";
 
 .spinner.pinwheel {
@@ -33,7 +34,7 @@
 		border-bottom-color: $spinner-color;
 		border-left-color: $spinner-accent;
 	}
-	
+
 	100% {
 		border-top-color: $spinner-color;
 		border-right-color: $spinner-accent;

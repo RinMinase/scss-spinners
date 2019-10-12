@@ -1,3 +1,4 @@
+@import "../variables";
 @import "../globals";
 
 .spinner.bubble {
@@ -32,12 +33,12 @@
 		opacity: .5;
 		transform: scale(1) translateX(0px);
 	}
-	
+
 	25% {
 		opacity: 1;
-		transform: scale(1.1) translateX(-15px);	
+		transform: scale(1.1) translateX(-15px);
 	}
-	
+
 	50% {
 		opacity: 1;
 		transform: scale(1.2) translateX(15px);
@@ -70,7 +71,7 @@
 		opacity: .5;
 		transform: scale(1);
 	}
-	
+
 	50% {
 		transform: scale(1.1);
 	}

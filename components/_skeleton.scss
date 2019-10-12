@@ -1,10 +1,11 @@
+@import "../variables";
 @import "../globals";
 
 .spinner.skeleton {
 	border-radius: 50%;
 	@include border($spinner-size / 8, $spinner-color, transparent, transparent, transparent);
 	animation: skeleton-animate $speed3x linear infinite;
-	
+
 	&::before{
 		border-radius: 50%;
 		content: " ";
@@ -15,7 +16,7 @@
 		left: -($spinner-size / 8);
 		transform: rotateZ(-30deg);
 	}
-	
+
 	&::after {
 		border-radius: 50%;
 		content: " ";
@@ -37,7 +38,7 @@
 	50% {
 		opacity: .7;
 	}
-	
+
 	100% {
 		transform: rotate(360deg);
 		opacity: 1;
