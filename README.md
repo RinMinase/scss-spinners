@@ -31,7 +31,6 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
 To import only a specific spinner:
 
 ```scss
-@import "~scss-spinners/variables";
 @import "~scss-spinners/components/balls";
 ```
 
