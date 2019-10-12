@@ -24,7 +24,7 @@ jobs:
 
       - run:
           name: Setup GitHub for Release
-          command: git config --global -l && git config --global user.email $GIT_EMAIL && git config --global user.name $GIT_NAME
+          command: git config --global user.email $GIT_EMAIL && git config --global user.name $GIT_NAME
 
       - run:
           name: Publishing GitHub Release
