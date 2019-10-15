@@ -1,5 +1,29 @@
 <h1 align="center"> SCSS Spinners and Loaders </h1>
 
+<p align="center">
+    <a href="hthttps://forthebadge.com">
+        <img alt="Uses-CSS" src="https://forthebadge.com/images/badges/uses-css.svg">
+    </a>&nbsp;&nbsp;&nbsp;
+    <a href="https://forthebadge.com">
+        <img alt="Built-With-Love" src="https://forthebadge.com/images/badges/built-with-love.svg" />
+    </a>
+</p>
+
+<p align="center">
+    <a href="https://www.npmjs.com/package/scss-spinners">
+        <img alt="NPM" src="https://nodei.co/npm/scss-spinners.png?compact=true">
+    </a>
+</p>
+
+<p align="center">
+    <a href="https://circleci.com/gh/RinMinase/scss-spinners">
+        <img alt="Circle-CI" src="https://img.shields.io/circleci/project/github/RinMinase/scss-spinners/master.svg?logo=circleci">
+    </a>
+    <a href="https://semantic-release.gitbook.io/semantic-release/">
+        <img alt="Semantic-Release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
+    </a>
+</p>
+
 ## Introduction
 
 ## Demo
@@ -31,7 +55,6 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
 To import only a specific spinner:
 
 ```scss
-@import "~scss-spinners/variables";
 @import "~scss-spinners/components/balls";
 ```
 
@@ -97,7 +120,7 @@ $spinner-size: 10px;
 
 #### How the structure works?
 - `spinner.scss` imports all specific spinner stylesheets
-- `_{spinner}.scss` imports `globals.scss` and contains styles for the specific spinner
+- `_{spinner}.scss` imports `variables.scss`, `globals.scss` and contains styles for the specific spinner
 
 ### Project tasks
 
