@@ -17,7 +17,7 @@
     "node-sass"
   ],
   "author": "Kristian Alunan (https://github.com/RinMinase)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RinMinase/scss-spinners/issues"
   },
