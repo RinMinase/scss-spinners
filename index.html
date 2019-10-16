@@ -40,7 +40,7 @@
 			.spinners { margin: 10px auto; }
 			.spinner-block {
 				display: inline-block;
-				width: 40%;
+				width: 90%;
 				margin: 40px 20px;
 			}
 
@@ -60,27 +60,14 @@
 				white-space: pre-wrap;
 			}
 
-			@media (max-width: 1024px) {
+			@media (min-width: 768px) {
 				.wrapper { width: 100%; }
-				.spinner-block {
-					display: block;
-					width: 90%;
-					margin: 40px 5%;
-				}
+				.spinner-block { width: 40%; }
 			}
 
-			@media (min-width: 1025px) and (max-width: 1699px) {
+			@media (min-width: 1300px) {
 				.wrapper { width: 70%; }
-				.spinner-block { margin: 40px auto; }
-			}
-
-			@media (min-width: 1700px) {
-				.wrapper { width: 70%; }
-				.spinner-block{
-					display: inline-block;
-					width: 30%;
-					margin: 40px 20px;
-				}
+				.spinner-block{ width: 30%; }
 			}
 		</style>
 
