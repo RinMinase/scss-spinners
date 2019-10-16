@@ -41,8 +41,14 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
 2. Import the main stylesheet of this project to the main stylesheet of your project
 
     ```css
+    @import "./node_modules/scss-spinners/spinners"
+    ```
+
+    If you are using a Webpack loader (e.g. `React` and `Angular`) you can shorten it to:
+    ```css
     @import "~scss-spinners/spinners";
     ```
+    As `~` resolves the import from a `node_module` path.
 
 3. Usage is as simple as
 
