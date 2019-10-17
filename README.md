@@ -17,10 +17,10 @@
 
 <p align="center">
     <a href="https://circleci.com/gh/RinMinase/scss-spinners">
-        <img alt="Circle-CI" src="https://img.shields.io/circleci/project/github/RinMinase/scss-spinners/master.svg?logo=circleci">
-    </a>
+        <img alt="Circle-CI" src="https://img.shields.io/circleci/project/github/RinMinase/scss-spinners/master.svg?logo=circleci&style=for-the-badge">
+    </a>&nbsp;&nbsp;
     <a href="https://semantic-release.gitbook.io/semantic-release/">
-        <img alt="Semantic-Release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
+        <img alt="Semantic-Release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=for-the-badge">
     </a>
 </p>
 
