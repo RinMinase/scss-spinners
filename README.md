@@ -17,10 +17,13 @@
 
 <p align="center">
     <a href="https://circleci.com/gh/RinMinase/scss-spinners">
-        <img alt="Circle-CI" src="https://img.shields.io/circleci/project/github/RinMinase/scss-spinners/master.svg?logo=circleci">
-    </a>
+        <img alt="Circle-CI" src="https://img.shields.io/circleci/project/github/RinMinase/scss-spinners/master.svg?logo=circleci&style=for-the-badge">
+    </a>&nbsp;
+    <a href="https://www.npmjs.com/package/scss-spinners">
+        <img alt="NPM-DW" src="https://img.shields.io/npm/dw/scss-spinners?logo=npm&style=for-the-badge">
+    </a>&nbsp;
     <a href="https://semantic-release.gitbook.io/semantic-release/">
-        <img alt="Semantic-Release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
+        <img alt="Semantic-Release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=for-the-badge">
     </a>
 </p>
 
@@ -41,8 +44,14 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
 2. Import the main stylesheet of this project to the main stylesheet of your project
 
     ```css
+    @import "./node_modules/scss-spinners/spinners"
+    ```
+
+    If you are using a Webpack loader (e.g. `React` and `Angular`) you can shorten it to:
+    ```css
     @import "~scss-spinners/spinners";
     ```
+    As `~` resolves the import from a `node_module` path.
 
 3. Usage is as simple as
 
@@ -133,9 +142,10 @@ Task automation is based on [Yarn scripts](https://yarnpkg.com/lang/en/docs/cli/
 | `npm run watch` or `yarn watch`  | Builds the scss files to `dist/` with file watching on changes  |
 
 ## Built with
-* <img width=20 height=20 src="https://sass-lang.com/favicon.ico"> [Sassy CSS (SCSS)](https://sass-lang.com/) - CSS pre-processor
+* <img width=20 height=20 src="https://sass-lang.com/favicon.ico"> [Sassy CSS (SCSS)](https://sass-lang.com/) - CSS Pre-processor
 * <img width=20 height=20 src="https://nodejs.org/static/images/favicons/favicon-32x32.png"> [NodeJS](https://nodejs.org/) - Environment
 * <img width=20 height=20 src="https://dmmj3mmt94rvw.cloudfront.net/favicon-undefined.ico"> [Circle CI](https://circleci.com/) - Continuous Integration (CI) service
+* <img width=20 height=20 src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LGsE7zdvzHI5cG-XV6p%2Favatar.png?alt=media"> [📦🚀Semantic Release](https://semantic-release.gitbook.io/) - Releasing strategy
 
 ## Credits
 This is based from [Webkul's CSSPIN](https://github.com/webkul/csspin) made in SCSS for projects looking for SCSS spinners or loaders.
