@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/RinMinase/scss-spinners/issues"
   },
-  "homepage": "https://github.com/RinMinase",
+  "homepage": "https://rinminase.github.io/scss-spinners",
   "scripts": {
     "clear": "rm -rf dist/ && mkdir dist",
     "create-css": "node-sass --output-style expanded spinners.scss > dist/spinners.css",
