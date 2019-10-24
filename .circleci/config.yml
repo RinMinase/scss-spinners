@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/spinners
     docker:
-      - image: circleci/node:13.0.1
+      - image: circleci/node:12.13.0
     branches:
       only:
         - master
