@@ -2,7 +2,7 @@
   "name": "scss-spinners",
   "version": "1.1.10",
   "description": "SCSS Spinners and Loaders based on webkul's csspin",
-  "main": "scss/spinners.scss",
+  "main": "spinners.scss",
   "repository": {
     "type": "git",
     "url": "https://github.com/RinMinase/scss-spinners.git"
