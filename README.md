@@ -19,11 +19,17 @@
     <a href="https://circleci.com/gh/RinMinase/scss-spinners">
         <img alt="Circle-CI" src="https://img.shields.io/circleci/project/github/RinMinase/scss-spinners/master.svg?logo=circleci&style=for-the-badge">
     </a>&nbsp;
-    <a href="https://www.npmjs.com/package/scss-spinners">
-        <img alt="NPM-DW" src="https://img.shields.io/npm/dw/scss-spinners?logo=npm&style=for-the-badge">
-    </a>&nbsp;
     <a href="https://semantic-release.gitbook.io/semantic-release/">
         <img alt="Semantic-Release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=for-the-badge">
+    </a>
+</p>
+
+<p align="center">
+    <a href="https://bundlephobia.com/result?p=scss-spinners">
+        <img alt="Bundle-Phobia" src="https://img.shields.io/bundlephobia/minzip/scss-spinners?logo=webpack&logoColor=white&style=for-the-badge">
+    </a>&nbsp;
+    <a href="https://www.npmjs.com/package/scss-spinners">
+        <img alt="NPM-DM" src="https://img.shields.io/npm/dm/scss-spinners?logo=npm&style=for-the-badge">
     </a>
 </p>
 
