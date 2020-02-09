@@ -39,6 +39,8 @@
     "git": {
       "addUntrackedFiles": false,
       "commit": false,
+      "tag": false,
+      "push": false,
       "requireCleanWorkingDir": false
     },
     "github": {
