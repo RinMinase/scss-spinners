@@ -1,6 +1,6 @@
 {
   "name": "scss-spinners",
-  "version": "1.1.19",
+  "version": "1.2.0",
   "description": "SCSS Spinners and Loaders based on webkul's csspin",
   "main": "dist/spinners.css",
   "repository": {
@@ -39,6 +39,8 @@
     "git": {
       "addUntrackedFiles": false,
       "commit": false,
+      "tag": false,
+      "push": false,
       "requireCleanWorkingDir": false
     },
     "github": {
