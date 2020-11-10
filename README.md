@@ -81,11 +81,23 @@ Variables is located at `/node_modules/scss-spinners/variables.scss`.
 
 The table below lists the possible variables which can be overriden.
 
-| Task               | Description                                         |
-| ------------------ | --------------------------------------------------- |
-| `$spinner-color`   | Sets the primary color of the spinner               |
-| `$spinner-accent`  | Sets the secondary or accent color of the spinner   |
-| `$spinner-size`    | Sets the size of the spinner                        |
+**Spinners**
+
+| Task                  | Description                                                               |
+| --------------------- | ------------------------------------------------------------------------- |
+| `$spinner-color`      | Sets the primary color of the spinner (default: `#28A745`)                |
+| `$spinner-accent`     | Sets the secondary or accent color of the spinner (default: `#71C585`)    |
+| `$spinner-size`       | Sets the size of the spinner (default: `60px`)                            |
+
+
+**Loader**
+
+| Task                  | Description                                                               |
+| --------------------- | ------------------------------------------------------------------------- |
+| `$loader-color`       | Sets the primary color of the loader (default: `#28A745`)                 |
+| `$loader-background`  | Sets the secondary or background color of the loader (default: `#EDEDED`) |
+| `$loader-size`        | Sets the size of the loader (default: `3px`)                              |
+| `$loader-speed`       | Sets the speed of the loader in seconds (default: `2s`)                   |
 
 To override, on the stylesheet before importing `spinners.scss`:
 
