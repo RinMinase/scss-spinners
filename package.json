@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "node-sass": "^5.0.0",
-    "release-it": "^14.2.1"
+    "release-it": "^14.2.2"
   },
   "release-it": {
     "git": {
