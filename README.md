@@ -40,7 +40,23 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
 
 ## Getting Started
 
-### Using this project as SCSS
+### Using this package as CSS from a CDN
+1. You can use [JSDelivr](https://www.jsdelivr.com/) CDN and place it on your main HTML page
+
+    ```html
+    <head>
+      ...
+      <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/scss-spinners />
+    </head>
+    ```
+
+2. Usage is as simple as
+
+    ```html
+    <div class="spinner round"></div>
+    ```
+
+### Using this package as SCSS
 1. Install the package from [npm](https://www.npmjs.com/package/scss-spinners)
 
     ```
@@ -65,7 +81,7 @@ You can view the spinners right now at [https://rinminase.github.io/scss-spinner
     <div class="spinner round"></div>
     ```
 
-### Specific imports (Tree-shaking)
+### Specific imports (Tree-shaking) in SCSS
 
 To import only a specific spinner:
 
@@ -75,7 +91,7 @@ To import only a specific spinner:
 
 The example above would only import `balls` spinner.
 
-### Overriding variables
+### Overriding variables in SCSS
 
 Variables is located at `/node_modules/scss-spinners/variables.scss`.
 
