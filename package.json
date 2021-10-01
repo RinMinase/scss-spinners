@@ -1,6 +1,6 @@
 {
   "name": "scss-spinners",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "SCSS Spinners and Loaders based on webkul's csspin",
   "main": "dist/spinners.css",
   "repository": {
