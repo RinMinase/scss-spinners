@@ -36,6 +36,7 @@
     "release-it": "^14.11.6"
   },
   "resolutions": {
+    "**/ansi-regex": "^5.0.1",
     "**/tar": "^6.1.9"
   },
   "release-it": {
